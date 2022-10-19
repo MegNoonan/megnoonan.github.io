@@ -1,11 +1,3 @@
-
-/* format the aboutme class paragraphs */
-/*.TextBox{
-	height:3000px;
-	width: 4000px;
-	background-color: #05445E;
-}*/
-
 /* Note: all formatting methods that do no have a specified reference were modified from https://www.w3schools.com/css, from 
 the book HTML & CSS design and build websites by Jon Duckett and Fleming College lectures hosted by Shawn Morgan. These 
 three sources were used to determine proper CSS formatting methods and were customized to match my websites theme */
@@ -25,7 +17,7 @@ body {
 
 /* Format the navigation bar for all pages */
 li.navigation{
-	display: inline;
+	display: inline; /* change list from vertical to horizontal */
 	margin-right: 40px;
 	font-size: 20px;
 	font-family: Arial, sans-serif;
@@ -55,7 +47,7 @@ a{
 }
 
 
-/* inspiration for what information to include in the footer came from: https://www.orbitmedia.com/blog/website-footer-design-best-practices/ */
+/* inspiration for what information to include in the footer and how to design it came from: https://www.orbitmedia.com/blog/website-footer-design-best-practices/ */
 footer{
 	padding-left:10px;
 	padding-top:10px;
@@ -119,21 +111,13 @@ from this websites tutorial is present in the class ResumeParagraph (flex) and c
 
 .resumeparagraph{
 	background-color: #D4F1F4;
-	display: flex;
+	display: flex; /* used to make the page have two columns beside eachother */
 	padding-bottom:50px;
 }
 
 .column{
-	flex:1
+	flex:1 /* used to make the page have two columns beside eachother */
 }
-
-/*#lightheading {
-	color:black;
-	padding-left: 40px;
-	font-size: 50px ;
-	margin-bottom: 0;
-	margin-top: 0;
-}*/
 
 #manuscript{
 	color: #189AB4;
@@ -149,6 +133,7 @@ h4{
 	margin:0px;
 }
 
+/* Format the image on the right side to make the text and images alternate back and forth */
 .countryright{
 	float:right;
 	padding-left: 40px ;
@@ -157,6 +142,7 @@ h4{
 	margin:0px; 
 }
 
+/* Format the image on the left side to make the text and images alternate back and forth */
 .countryleft{
 	float:left;
 	padding-right: 40px ;
@@ -165,14 +151,16 @@ h4{
 	margin:0px;
 }
 
+/* Format the text boxes that contain the travel stories and pictures to make each box a minimum of 450px which is the height of each image. This makes it so on small screens the box will grow to accomadate the text and not squish it */
 .phototextbox{
-	min-height:450px;
+	min-height:450px; 
 	padding-bottom:0px;
 	padding-top: 0px;
 	margin:0px;
 }
 
+/* Format the entire background of the alternating image-text checkerboard-esc section */
 .entiretravel{
 	background-color:#D4F1F4;
-	padding-bottom:50px;
+	padding-bottom:50px; /* make sure the footer does not cover the bottom of the photo at the bottom of the page */
 }
