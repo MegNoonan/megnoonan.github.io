@@ -41,8 +41,10 @@ h1{
 
 	padding-left: 40px;
 	font-size: 50px ;
-	color: #189AB4;
-	display: 600;
+	color: #05445E;
+	font-weight: 800;
+	margin-bottom: 0;
+	margin-top: 0;
 	
 }
 /* Format the links */
@@ -125,13 +127,13 @@ from this websites tutorial is present in the class ResumeParagraph (flex) and c
 	flex:1
 }
 
-#lightheading {
+/*#lightheading {
 	color:black;
 	padding-left: 40px;
 	font-size: 50px ;
 	margin-bottom: 0;
 	margin-top: 0;
-}
+}*/
 
 #manuscript{
 	color: #189AB4;
