@@ -32,6 +32,7 @@ li.navigation{
 h1{
 
 	padding-left: 40px;
+	padding-top: 10px;
 	font-size: 50px ;
 	color: #05445E;
 	font-weight: 800;
@@ -135,6 +136,7 @@ h4{
 }
 
 /* Format the image on the right side to make the text and images alternate back and forth */
+/* The inspiration for this page was influenced by the middle of the home page for the following link. https://mobirise.com/extensions/floram4/garden-landscaper/ which has the alternating image positions */
 .countryright{
 	float:right;
 	padding-left: 40px ;
