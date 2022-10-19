@@ -1,0 +1,172 @@
+
+/* format the aboutme class paragraphs */
+/*.TextBox{
+	height:3000px;
+	width: 4000px;
+	background-color: #05445E;
+}*/
+
+/* Note: all formatting methods that do no have a specified reference were modified from https://www.w3schools.com/css, from 
+the book HTML & CSS design and build websites by Jon Duckett and Fleming College lectures hosted by Shawn Morgan. These 
+three sources were used to determine proper CSS formatting methods and were customized to match my websites theme */
+
+/*Design note: The inspiration for the baseline formatting with the images bleeding to the top, right or left and bottom of the
+coloured text box is from my previous style while make power point presentations and was not inspired by other web pages. Areas that 
+were inspired by other webpages all have links indicating the inspiration. */
+
+
+/* Generic formating that applies to all pages */
+/* format the background color for the webpages */
+body {
+	background-color: #189AB4;
+	margin:0;
+	padding:0;
+}
+
+/* Format the navigation bar for all pages */
+li.navigation{
+	display: inline;
+	margin-right: 40px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+/* Make navigation bar text colour change when cursor hovers */
+.navigation a:hover {
+	color:white
+}
+/* Format headers */
+h1{
+
+	padding-left: 40px;
+	font-size: 50px ;
+	
+}
+/* Format the links */
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+
+/* inspiration for what information to include in the footer came from: https://www.orbitmedia.com/blog/website-footer-design-best-practices/ */
+footer{
+	padding-left:10px;
+	padding-top:10px;
+	background-color: #05445E;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	height: 50px;
+	width:100%;
+	position: fixed;
+	bottom:0;
+}
+/* This section contains information for id and class sepcific elements on the index page */
+
+/* Format the first image located on the index page */
+#plitvice {
+	float:right;
+	padding-left: 40px ;
+}
+
+.textbox{
+	min-height:887px;
+	background-color: #D4F1F4;
+
+}	
+
+/* This section contains information for id and class sepcific elements on the index page 
+*/ 
+.skills{
+	list-style-position: inside;
+	list-style-type: square;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+
+h2{
+	padding-left: 40px;
+	color:#05445E;
+}
+
+
+h3{
+	padding-left: 40px;
+	font-family: Arial, sans-serif;
+}
+
+p{
+	padding-left: 40px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding-right:120px;
+}
+
+
+
+/* The formatting CSS method was sourced from https://coder-coder.com/display-divs-side-by-side/. Formatting modified
+from this websites tutorial is present in the class ResumeParagraph (flex) and class Column */
+
+.resumeparagraph{
+	background-color: #D4F1F4;
+	display: flex;
+	padding-bottom:50px;
+}
+
+.column{
+	flex:1
+}
+
+#lightheading {
+	color:black;
+	padding-left: 40px;
+	font-size: 50px ;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#manuscript{
+	color: #189AB4;
+	font-weight: bold;
+}
+
+h4{
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-bottom:0px;
+	padding-top: 0px;
+	margin:0px;
+}
+
+.countryright{
+	float:right;
+	padding-left: 40px ;
+	padding-bottom:0px;
+	padding-top: 0px;
+	margin:0px; 
+}
+
+.countryleft{
+	float:left;
+	padding-right: 40px ;
+	padding-bottom:0px;
+	padding-top: 0px;
+	margin:0px;
+}
+
+.phototextbox{
+	min-height:450px;
+	padding-bottom:0px;
+	padding-top: 0px;
+	margin:0px;
+}
+
+.entiretravel{
+	background-color:#D4F1F4;
+	padding-bottom:50px;
+}
