@@ -41,7 +41,8 @@ h1{
 
 	padding-left: 40px;
 	font-size: 50px ;
-	color: #808080;
+	color: #189AB4;
+	display: 600;
 	
 }
 /* Format the links */
@@ -92,12 +93,14 @@ footer{
 h2{
 	padding-left: 40px;
 	color:#05445E;
+	font-weight:700;
 }
 
 
 h3{
 	padding-left: 40px;
 	font-family: Arial, sans-serif;
+	font-weight:400;
 }
 
 p{
