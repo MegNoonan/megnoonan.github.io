@@ -68,7 +68,7 @@ footer{
 	float:right;
 	padding-left: 40px ;
 }
-
+/* Holds the header, image and paragraph for the index page */
 .textbox{
 	min-height:887px;
 	background-color: #D4F1F4;
@@ -84,20 +84,21 @@ footer{
 	font-size: 20px;
 }
 
-
+/* headers for sections of the resume. Headers are coloured the same as H1 headers but differ from the sub heading H3 which is used for job titles */
 h2{
 	padding-left: 40px;
 	color:#05445E;
 	font-weight:700;
 }
 
-
+/* headers for the job titles in the resume. Bolded and black to stand out */
 h3{
 	padding-left: 40px;
 	font-family: Arial, sans-serif;
 	font-weight:700;
 }
 
+/* paragraph formatting for all paragraphs without ID and Class */
 p{
 	padding-left: 40px;
 	font-family: Arial, sans-serif;
@@ -110,24 +111,26 @@ p{
 /* The formatting CSS method was sourced from https://coder-coder.com/display-divs-side-by-side/. Formatting modified
 from this websites tutorial is present in the class ResumeParagraph (flex) and class Column */
 
+/* Format the div holding the text for the resume to make two columns. Parent */
 .resumeparagraph{
 	background-color: #D4F1F4;
 	display: flex; /* used to make the page have two columns beside eachother */
 	padding-bottom:50px;
 }
-
+/* Format the div holding the text for the resume to make two columns. Child */
 .column{
 	flex:1 /* used to make the page have two columns beside eachother */
 }
-
+/* format a hyperlink to my published manuscript hosted on an external website */
 #manuscript{
 	color: #189AB4;
 	font-weight: bold;
 	text-decoration: underline; /*add underline to emphasize link */
 }
 
+/* headers used to list countries visited */
 h4{
-	font-family: "Lucida Handwriting", cursive;
+	font-family: "Lucida Handwriting", cursive; /* used cursive to go for an old postcard vibe */
 	font-size: 30px;
 	padding-left: 40px;
 	padding-bottom:0px;
