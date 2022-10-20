@@ -67,6 +67,9 @@ footer{
 #plitvice {
 	float:right;
 	padding-left: 40px ;
+	height: 887px;
+	width: 800px;
+}
 }
 /* Holds the header, image and paragraph for the index page */
 .textbox{
@@ -145,7 +148,9 @@ h4{
 	padding-left: 40px ;
 	padding-bottom:0px;
 	padding-top: 0px;
-	margin:0px; 
+	margin:0px;
+	height: 450px;
+	width: 600px;
 }
 
 /* Format the image on the left side to make the text and images alternate back and forth */
@@ -155,6 +160,8 @@ h4{
 	padding-bottom:0px;
 	padding-top: 0px;
 	margin:0px;
+	height: 450px;
+	width: 600px;
 }
 
 /* Format the text boxes that contain the travel stories and pictures to make each box a minimum of 450px which is the height of each image. This makes it so on small screens the box will grow to accomadate the text and not squish it */
