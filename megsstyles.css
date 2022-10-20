@@ -170,3 +170,26 @@ h4{
 	background-color:#D4F1F4;
 	padding-bottom:50px; /* make sure the footer does not cover the bottom of the photo at the bottom of the page */
 }
+
+/* Format footnote list to make the text inline */
+.footnotes{
+	display: inline;
+	font-size: 20px;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: #D4F1F4; /* used the colour of the text boxes so formatting is more consistent and the colour is less harsh on the eyes than white */
+}
+
+/* Format the external links to match the normal font colour, style and size */
+.externallinks {
+	font-size: 20px;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: #D4F1F4; /* used the colour of the text boxes so formatting is more consistent and the colour is less harsh on the eyes than white */
+	margin-left: 50px;
+}
+
+/* Format the external links to make them bold if cursor hovers */
+.externallinks:hover {
+	font-weight: bold;
+}
