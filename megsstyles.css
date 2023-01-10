@@ -177,7 +177,7 @@ h2 { /* Supporting Heading - Centered */
 .sectionboxtwoteam{
 	display: flex;
 	flex-direction: row;
-	background-color:  #D3E3FC; /* background colour will be changed when colours are chosen */
+	background-color:  #EEF7FF; /* background colour will be changed when colours are chosen */
 	padding: 5%;
 
 	
