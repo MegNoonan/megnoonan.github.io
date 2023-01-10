@@ -174,14 +174,6 @@ h2 { /* Supporting Heading - Centered */
 
 }
 
-@media (max-width: 1000px){
-	.sectionboxone, .sectionboxtwo{
-		flex-direction: column;
-	}
-	
-/* This is the code for the portfolio page formatting */
-
-
 .sectionboxtwoteam{
 	display: flex;
 	flex-direction: row;
