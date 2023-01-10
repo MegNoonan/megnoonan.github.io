@@ -178,7 +178,7 @@ h2 { /* Supporting Heading - Centered */
 	display: flex;
 	flex-direction: row;
 	background-color: #F4F5F6; 
-	padding: 15%;
+	padding: 5%;
 
 	
 }
@@ -211,8 +211,8 @@ h2 { /* Supporting Heading - Centered */
 /* Add space on the Past Projects page between the projects boxes */
 .padpast{
 	background-color: white; /* background colour will be changed when colours are chosen */
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
 	padding-bottom:5%;
 }
 
