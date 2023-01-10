@@ -179,4 +179,47 @@ h2 { /* Supporting Heading - Centered */
 		flex-direction: column;
 	}
 	
+/* This is the code for the portfolio page formatting */
 
+.sectionboxtwoportfolio{
+	display: flex;
+	flex-direction: row;
+	background-color: #EBF5EE; /* background colour will be changed when colours are chosen */
+	padding: 5%;
+
+	
+}
+
+.quoteboxportfolio{
+	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	flex: 25%;
+}
+
+.paragraphboxportfolio{
+	padding-left: 2%;
+	padding-right: 2%;
+	flex: 75%;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; /* add spaces between rows of text for readability */
+}
+
+
+@media (max-width: 1400px){ /*Responsive */
+	.sectionboxtwoportfolio{
+		flex-direction: column;
+	}
+}
+
+/* Add space on the Past Projects page between the projects boxes */
+.padpast{
+	background-color: white; /* background colour will be changed when colours are chosen */
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom:5%;
+}
+	
+.pastprojects{
+  border: 4px solid #0f4754
+}
