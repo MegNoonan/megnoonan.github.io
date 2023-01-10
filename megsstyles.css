@@ -6,197 +6,177 @@ three sources were used to determine proper CSS formatting methods and were cust
 coloured text box is from my previous style while make power point presentations and was not inspired by other web pages. Areas that 
 were inspired by other webpages all have links indicating the inspiration. */
 
+/* the body of the resume */
 
-/* Generic formating that applies to all pages */
-/* format the background color for the webpages */
-body {
-	background-color: #189AB4;
+body{
 	margin:0;
 	padding:0;
 }
 
 /* Format the navigation bar for all pages */
-li.navigation{
+li.navigationhome{
 	display: inline; /* change list from vertical to horizontal */
-	margin-right: 40px;
-	font-size: 20px;
-	font-family: Arial, sans-serif;
-	color: black;
-	font-weight: bold;
+	margin-left: 40px;
+	position: absolute;
+	top: 10%;
+    right: 36.2%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
 }
-/* Make navigation bar text colour change when cursor hovers */
-.navigation a:hover {
-	color:white
-}
-/* Format headers */
-h1{
 
-	padding-left: 40px;
-	padding-top: 10px;
-	font-size: 50px ;
-	color: #05445E;
-	font-weight: 800;
-	margin-bottom: 0;
-	margin-top: 0;
+li.navigationresume{
+	display: inline; /* change list from vertical to horizontal */
+	margin-left: 40px;
+	position: absolute;
+	top: 10%;
+    right: 26%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
+}
+
+li.navigationportfolio{
+	display: inline; /* change list from vertical to horizontal */
+	margin-left: 40px;
+	position: absolute;
+	top: 10%;
+    right: 15%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
 	
 }
-/* Format the links */
+
 a{
-	color: black;
-	text-decoration: none;
+	text-decoration:none;
+	color: #8D94A3;
+		/*color: #AAB3C5;   color: #BAC2D3;*/
+}
+
+.nav{
+	background-color:#D9E0ED;
+	text-align:center;
 
 }
 
+.navbar{
+	margin:0px;
+	padding-bottom: 5px;
+	text-align: right;
+}
 
-/* inspiration for what information to include in the footer and how to design it came from: https://www.orbitmedia.com/blog/website-footer-design-best-practices/ */
-footer{
-	padding-left:10px;
-	padding-top:10px;
-	background-color: #05445E;
-	font-size: 20px;
-	font-family: "Times New Roman", Times, serif;
-	color: white;
-	height: 50px;
+/* Make navigation bar text colour change when cursor hovers */
+a:hover {
+	color:#BAC2D3;
+}
+
+.sectionbox{
+	background-color: #EBF5EE; /* background colour will be changed when colours are chosen */
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	
+}
+
+.sectionboxone{
+	display: flex; /* make it so the text boxes can stack if screen is smaller */
+	flex-direction: row;
+	background-color: white;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 0.2%;
+	
+}
+
+
+/* for other pages the quote box will be swapped for images that will be contained in the section boxes */
+.quotebox{
+	padding-right: 5%;
+	padding-left: 2%;
+	padding-top: 10px;/*
+	padding-bottom: 5%;	/* quote box has different padding levels to make it left justified from center */
+	flex: 35%;
+	font-size: 20px; 
+	font-family: Arial, sans-serif; 
+	color: gray;
+	line-height: 155%;
+
+
+} 
+/* Paragraph/div formmating for the values page */
+
+.paragraphbox{
+	padding: 10px;
+	flex: 65%;
+	font-size: 20px; 
+	font-family: Arial, sans-serif; 
+	color: gray;
+	line-height: 155%; /* add spaces between rows of text for readability */
+	background-color:#F4F5F6;
+}
+
+h1 { /* Supporting Heading - Centered */
+	color: #272343; 
+	font-size: 35px;
+	margin:0px;
+	padding-top:2%;	
+	font-family: Georgia, serif; 
+	font-weight:normal;
+	letter-spacing: 0.05em
+}
+
+
+
+h2 { /* Supporting Heading - Centered */
+	font-size: 24px;
+	margin:0px;
+	padding-top:2%;	
+	font-family: Georgia, serif; 
+	font-weight:normal;
+	letter-spacing: 0.05em
+
+}
+
+.resumeheader{
+	position:relative;
+	text-align:center;
+	padding:0%;
+}
+
+.resumepic{
 	width:100%;
-	position: fixed;
-	bottom:0;
-}
-/* This section contains information for id and class sepcific elements on the index page */
-
-/* Format the first image located on the index page */
-#plitvice {
-	float:right;
-	padding-left: 40px ;
-	height: 887px;
-	width: 800px;
+	filter:grayscale(50%);
+	/*opacity:0.3;*/
 }
 
-/* Holds the header, image and paragraph for the index page */
-.textbox{
-	min-height:887px;
-	background-color: #D4F1F4;
-
-}	
-
-/* This section contains information for id and class sepcific elements on the index page 
-*/ 
-.skills{
-	list-style-position: inside;
-	list-style-type: square;
-	font-family: Arial, sans-serif;
-	font-size: 20px;
+.centeredtext {
+  position: absolute;
+  top: 10%;
+  left: 16.5%;
+  font-size: 1.5vw; 
+  font-family: Arial, sans-serif; 
+  font-weight:bold;
+  color: #8D94A3;
 }
 
-/* headers for sections of the resume. Headers are coloured the same as H1 headers but differ from the sub heading H3 which is used for job titles */
-h2{
-	padding-left: 40px;
-	color:#05445E;
-	font-weight:700;
+.centeredtextlarge {
+  position: absolute;
+  top: 35%;
+  left: 16.5%;
+  font-size: 4vw; 
+  font-family: Georgia, serif; 
+  font-weight:bold;
+  letter-spacing: 0.05em;
+    color: white;
+
 }
 
-/* headers for the job titles in the resume. Bolded and black to stand out */
-h3{
-	padding-left: 40px;
-	font-family: Arial, sans-serif;
-	font-weight:700;
-}
+@media (max-width: 1000px){
+	.sectionboxone, .sectionboxtwo{
+		flex-direction: column;
+	}
+	
 
-/* paragraph formatting for all paragraphs without ID and Class */
-p{
-	padding-left: 40px;
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-	padding-right:120px;
-}
-
-
-
-/* The formatting CSS method was sourced from https://coder-coder.com/display-divs-side-by-side/. Formatting modified
-from this websites tutorial is present in the class ResumeParagraph (flex) and class Column */
-
-/* Format the div holding the text for the resume to make two columns. Parent */
-.resumeparagraph{
-	background-color: #D4F1F4;
-	display: flex; /* used to make the page have two columns beside eachother */
-	padding-bottom:50px;
-}
-/* Format the div holding the text for the resume to make two columns. Child */
-.column{
-	flex:1 /* used to make the page have two columns beside eachother */
-}
-/* format a hyperlink to my published manuscript hosted on an external website */
-#manuscript{
-	color: #189AB4;
-	font-weight: bold;
-	text-decoration: underline; /*add underline to emphasize link */
-}
-
-/* headers used to list countries visited */
-h4{
-	font-family: "Lucida Handwriting", cursive; /* used cursive to go for an old postcard vibe */
-	font-size: 30px;
-	padding-left: 40px;
-	padding-bottom:0px;
-	padding-top: 10px;
-	margin:0px;
-}
-
-/* Format the image on the right side to make the text and images alternate back and forth */
-/* The inspiration for this page was influenced by the middle of the home page for the following link. https://mobirise.com/extensions/floram4/garden-landscaper/ which has the alternating image positions */
-.countryright{
-	float:right;
-	padding-left: 40px ;
-	padding-bottom:0px;
-	padding-top: 0px;
-	margin:0px;
-	height: 450px;
-	width: 600px;
-}
-
-/* Format the image on the left side to make the text and images alternate back and forth */
-.countryleft{
-	float:left;
-	padding-right: 40px ;
-	padding-bottom:0px;
-	padding-top: 0px;
-	margin:0px;
-	height: 450px;
-	width: 600px;
-}
-
-/* Format the text boxes that contain the travel stories and pictures to make each box a minimum of 450px which is the height of each image. This makes it so on small screens the box will grow to accomadate the text and not squish it */
-.phototextbox{
-	min-height:450px; 
-	padding-bottom:0px;
-	padding-top: 0px;
-	margin:0px;
-}
-
-/* Format the entire background of the alternating image-text checkerboard-esc section */
-.entiretravel{
-	background-color:#D4F1F4;
-	padding-bottom:50px; /* make sure the footer does not cover the bottom of the photo at the bottom of the page */
-}
-
-/* Format footnote list to make the text inline */
-.footnotes{
-	display: inline;
-	font-size: 20px;
-	font-size: 20px;
-	font-family: "Times New Roman", Times, serif;
-	color: #D4F1F4; /* used the colour of the text boxes so formatting is more consistent and the colour is less harsh on the eyes than white */
-}
-
-/* Format the external links to match the normal font colour, style and size */
-.externallinks {
-	font-size: 20px;
-	font-size: 20px;
-	font-family: "Times New Roman", Times, serif;
-	color: #D4F1F4; /* used the colour of the text boxes so formatting is more consistent and the colour is less harsh on the eyes than white */
-	margin-left: 50px;
-}
-
-/* Format the external links to make them bold if cursor hovers */
-.externallinks:hover {
-	font-weight: bold;
-}
