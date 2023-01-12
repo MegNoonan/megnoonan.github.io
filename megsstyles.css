@@ -107,12 +107,24 @@ a:hover {
 
 } 
 /* Paragraph/div formmating for the main page */
-.paragraphboxmain{
+.paragraphboxmain1{
 	position: absolute;
 	top: 60%;
         left: 15%;
 	padding: 10px;
 	flex: 65%;
+	font-size: 1vw; 
+	font-family: Arial, sans-serif; 
+	color: white;
+	line-height: 155%; /* add spaces between rows of text for readability */
+}
+
+.paragraphboxmain2{
+	position: absolute;
+	top: 60%;
+        left: 15%;
+	padding: 10px;
+	flex: 55%;
 	font-size: 1vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
