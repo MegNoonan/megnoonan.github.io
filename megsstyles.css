@@ -109,26 +109,15 @@ a:hover {
 /* Paragraph/div formmating for the main page */
 .paragraphboxmain1{
 	position: absolute;
-	top: 50%;
-        left: 15%;
-	padding: 10px;
+	top: 55%;
+	padding-left: 15%;
+	padding-right: 15%;
 	flex: 65%;
 	font-size: 1vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
 	line-height: 155%; /* add spaces between rows of text for readability */
-}
-
-.paragraphboxmain2{
-	position: absolute;
-	top: 65%;
-        left: 15%;
-	padding: 10px;
-	flex: 65%;
-	font-size: 1vw; 
-	font-family: Arial, sans-serif; 
-	color: white;
-	line-height: 155%; /* add spaces between rows of text for readability */
+	background-color: rgba(0,0,0,.5);
 }
 
 /* Paragraph/div formmating for the resume page */
