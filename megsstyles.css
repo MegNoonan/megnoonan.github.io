@@ -110,14 +110,11 @@ a:hover {
 .paragraphboxmain{
 	position: absolute;
 	top: 55%;
-	padding-left: 15%;
-	padding-right: 15%;
-	flex: 65%;
 	font-size: 1vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
 	line-height: 155%; /* add spaces between rows of text for readability */
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.1);
 }
 
 /* Paragraph/div formmating for the resume page */
