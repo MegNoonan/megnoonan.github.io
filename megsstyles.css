@@ -113,9 +113,9 @@ a:hover {
         left: 15%;
 	padding: 10px;
 	flex: 65%;
-	font-size: 20px; 
+	font-size: 1vw; 
 	font-family: Arial, sans-serif; 
-	color: gray;
+	color: white;
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
 
