@@ -110,6 +110,7 @@ a:hover {
 .paragraphboxmain{
 	position: absolute;
 	top: 55%;
+	padding-right:15%;
 	font-size: 1vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
