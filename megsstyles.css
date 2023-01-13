@@ -232,7 +232,7 @@ h2 { /* Supporting Heading - Centered */
 @media (max-width: 1000px){
 	.sectionboxone, .sectionboxtwo{
 		flex-direction: column;
-	}
+	}}
 	
 .pastprojects{
   border: 4px solid black;
