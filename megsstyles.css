@@ -235,5 +235,6 @@ h2 { /* Supporting Heading - Centered */
 	}
 	
 .pastprojects{
-  border: 4px solid #0f4754
+  border: 4px solid black;
+  max-width: 620px;	
 }
