@@ -1,50 +1,143 @@
+
 <!-- Note: Methods for properly coding HTML were sourced from W3schools and the book of HTML & CSS design and build websites by Jon Duckett. Fleming College 
  lectures presented by Shawn Morgan were also used to build the basic HTML coding-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Home </title>
+<title> Resume </title>
   <link rel="stylesheet" href="megsstyles.css">
 </head>
 <body>
 <!--beginning of the navigation bar -->
 
 <div class="resumeheader">
-<img class="resumepic" src="mountains_cropped_main1.JPG" alt="header image of Austria mountain landscape"> <!-- Picture taken by myself -->
-<div class="centeredtextmain"> Meghan Noonan </div>
-
+<img class="resumepic" src="mountains_Cropped_2.JPG" alt="header image of Austria mountain landscape"> <!-- Picture taken by myself -->
+<div class="centeredtext"> Meghan Noonan </div>
+<div class="centeredtextlarge"> Resume </div>
   <nav class="navbar">
   
     <div class="GeomSolutions"> 
 
     </div>
       <ul class="navbar">
-        <li class = "navigationhomemain"> <a href="index.html">Home</a></li>
-		<li class = "navigationresumemain"> <a href="resume.html">Resume</a></li>
-		<li class = "navigationportfoliomain"> <a href="portfolio.html">Portfolio</a></li>
+        <!-- <li class = "navigationhome"> <a href="index.html">Home</a></li> -->
+		<li class = "navigationresume"> <a href="index.html">Resume</a></li>
+		<li class = "navigationportfolio"> <a href="portfolio.html">Portfolio</a></li>
       </ul> 
   </nav>
-<div class = "paragraphboxmain"> 
-	<h1> Hello! I'm Meghan Noonan </h1>
-<p> My education began at the University of Guelph, where, like many who attend Guelph, I was under the impression I wanted 
-	to be a vet. That dream was quickly replaced by a new one after travelling to Thailand and volunteering at a wildlife rehabilitation sanctuary.
-	It was there that I discovered my passion for conservation and research. Upon this discovery, I switched my degree to wildlife biology and conservation 
-	and started down the path towards a career in conservation. After graduating, I completed an MSc position in Newfoundland where my research focused on
-	modelling forest restoration trajectories after herbivore overbrowsing. Since completing my post-graduate studies, I have been looking for a position 
-	that would allow me to make significant contributions to conservation efforts while expanding on my existing ecological skill set. Through this pursuit, 
-	I was able to work with several fantastic companies that led me to my most recent pursuit, studying GIS at Fleming College. It is my hope that once I complete 
-	my program I will be able to combine my conservation, modelling and GIS skills and work with a company that helps conserve and restore our ecosystems. </p>
+</div>
 
-</div>	
+<!-- Resume content
+     Inspiration: Design is based on how a pdf version of a resume would be laid out. Blocking inspiration is inspired 
+	 by capital stairs about us website. Code methedology adopted from class lectures, W3Schools and class textbooks. Design 
+	 modified after initial grading to enhance website. -->
+
+<!--  Left side of resume -->	 
+<div class = "sectionboxone">
+<div  class = "quotebox"> 
+<h1> Personal Statement </h1>
+<p> Passionate, self-motivated ecologist with a background in restoration research 
+and GIS seeking the position of GIS Specialist. </p>
+<h1 id= "blah"> Hard skills </h1>
+
+<ul class="skillslist">
+<li> Mathematical modeling </li>
+<li> Report writing </li>
+<li> Data collection </li>
+<li> Geospatial analysis </li>
+<li> Species identification </li>
+<li> Data management </li>
+<li> HTML5 </li>
+<li> CSS </li>
+<li> JavaScript </li>
+<li> Python </li>
+<li> SQL </li>
+<li> R </li>
+<li> ArcGIS</li>
+<li> MapInfo </li>
+<li> CSS </li>
+
+</ul>
+
+<h1 id= "blah"> Soft skills </h1>
+
+<ul class="skillslist">
+<li> Time management </li>
+<li> Critical thinking </li>
+<li> Communication </li> 
+<li> Teamwork </li>
+<li> Problem solving </li>
+<li> Flexibility </li>
+<li> Leadership </li>
+
+</ul>
+
+
+<h1> Publication </h1>
+<p> Noonan, M., Leroux, S. J. and Hermanutz, L. (2021). Evaluating forest restoration strategies after 
+herbivore overbrowing. Forest Ecology and Management. 482, 118827</p>
+
+</div>
+
+<!--  Right side of resume -->
+
+<div class = "paragraphbox"> 
+
+<h1> Work Experience </h1>
+
+<h2> Conservation Intern | Nature Conservancy Canada | 2022 </h2>
+
+<p> Conducted property surveys which included species identification, property maitenance, and habitat classification. Manually and chemically 
+	controlled invasive species to aid property restoration. Led community outreach events and developed materials to engage youth with conservation initiatives. </p>
+
+<h2> Junior Terrestrial Ecologist | ECOSTEM Ltd | 2021-2022 </h2>
+<p> Digitized project footprint impact areas using MapInfo. Cleaned, analyzed, and interpreted
+ anthropogenic disturbance and restoration data utilizing R and Microsoft Excel. Generated annual
+ reports based on key analytic findings. </p>
+
+<h2> Farm Manager | Stonetable Haskaps | 2020-2021 </h2>
+<p> Researched and implemented native bee conservation practices. Managed and scheduled farm 
+employees. Planted, cultivated, and harvested haskap berries. </p>
+
+<h2> Project Manager | Perth and District Community Foundation | 2019 </h2>
+<p> Developed a social media campaign to inspire youth to apply for the RBC Future Launch Challenge 
+grant. Researched and collected information from the community to expand the demographic reach 
+of PDCF. </p>
+
+<h2> Teaching Assistant - Principles of Biology | Memorial University | 2018 </h2>
+<p> Provided guidance to undergraduate students on laboratory practices and explained animal and 
+plant physiology and anatomy to aid student understanding of concepts. </p>
+
+<h2> Animal Care Attendant | Ottawa Humane Society | 2016-2017 </h2>
+<p> Monitored animal behaviour and husbandry, prepared food, cleaned enclosures and assisted 
+veterinary technicians during animal treatments. Trained and supervised new OHS employees, 
+volunteers and students on animal care and OHS protocols. </p>
+
+<h1> Education </h1>
+<h2> Post Graduate Certificate | Fleming College | 2022-2023 </h2>
+<p> Geographic Information Systems - Application Specialist </p>
+
+<h2> Master of Science | Memorial University | 2017-2019 </h2>
+<p> Modeled scenarios for forest restoration after moose disturbance. Delineated aerial 
+photographic detail to assess canopy disturbance using ArcMap. To view published 
+research click here. </p>
+
+<h2> Bachelor of Science | University of Guelph | 2012-2016 </h2>
+<p> Wildlife Biology and Conservation </p>
+
+
+</div>
+</div>
 </div>
 
 
-
-<!-- <img id="plitvice" src="Plitvice20193.jpg" alt="Meg in Plitivice"> -->
-
-
+<footer>
+  <div class = "footer">
+    <a href="index.html">Home</a>
+  </div>
+</footer>
 
 
 </body>
+
 </html>
