@@ -211,6 +211,16 @@ h2 { /* Supporting Heading - Centered */
   color: #8D94A3;
 }
 
+.centeredtextmain {
+  position: absolute;
+  top: 10%;
+  left: 16.5%;
+  font-size: 1.5vw; 
+  font-family: Arial, sans-serif; 
+  font-weight:bold;
+  color: #8D94A3;
+}
+
 .centeredtextlarge {
   position: absolute;
   top: 35%;
