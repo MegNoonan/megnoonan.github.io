@@ -112,7 +112,7 @@ a:hover {
 	top: 40%;
 	padding-right:15%;
 	padding-left:15%;
-	font-size: 1.3vw; 
+	font-size: 1.2vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
 	line-height: 155%; /* add spaces between rows of text for readability */
@@ -162,7 +162,7 @@ h2 { /* Supporting Heading - Centered */
 .resumepic{
 	width:100%;
 	filter:grayscale(50%);
-	/*opacity:0.3;*/
+	opacity:0.3;
 }
 
 .centeredtext {
