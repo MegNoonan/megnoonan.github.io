@@ -109,9 +109,10 @@ a:hover {
 /* Paragraph/div formmating for the main page */
 .paragraphboxmain{
 	position: absolute;
-	top: 55%;
+	top: 50%;
 	padding-right:15%;
-	font-size: 1vw; 
+	padding-left:15%;
+	font-size: 1.2vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
 	line-height: 155%; /* add spaces between rows of text for readability */
