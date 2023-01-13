@@ -115,7 +115,7 @@ a:hover {
 	font-size: 1.3vw; 
 	font-family: Arial, sans-serif; 
 	color: white;
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.2);
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
 
