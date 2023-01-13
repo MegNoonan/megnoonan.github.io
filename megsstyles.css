@@ -48,6 +48,42 @@ li.navigationportfolio{
 	
 }
 
+/* Navigation tabs for the home page which has different spacing */
+
+li.navigationhomemain{
+	display: inline; /* change list from vertical to horizontal */
+	margin-left: 40px;
+	position: absolute;
+	top: 3.58%;
+    right: 36.2%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
+}
+
+li.navigationresumemain{
+	display: inline; /* change list from vertical to horizontal */
+	margin-left: 40px;
+	position: absolute;
+	top: 3.58%;
+    right: 26%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
+}
+
+li.navigationportfoliomain{
+	display: inline; /* change list from vertical to horizontal */
+	margin-left: 40px;
+	position: absolute;
+	top: 3.58%;
+    right: 15%;
+    font-size: 1.5vw; 
+    font-family: Arial, sans-serif; 
+    font-weight:bold;
+	
+}
+
 a{
 	text-decoration:none;
 	color: #8D94A3;
